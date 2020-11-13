@@ -7,7 +7,7 @@ mysql -u 'user name' -p 'database_name' <.../tabela_teste_lamna.sql
 
 Após importar z_critical_value.sql e kolmog_resultado.sql faça o teste ks através do comando 'CALL kolmog("nome_coluna", "nome_tabela", @distr);'.
 
-Ao chamar a variavel @distr 'SELECT @distr;', se retorna o D-critico, p-value (nível de significância 0.05) e resultado do teste.
+Ao chamar a variavel @distr 'SELECT @distr;', é retornado o D-critico, p-value (nível de significância 0.05) e resultado do teste.
 
 Exemplo a partir de dados que não seguem uma distribuição normal (tabela_teste_lamna.sql).
 
